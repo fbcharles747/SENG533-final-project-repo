@@ -1,0 +1,1 @@
+K6_INFLUXDB_ORGANIZATION="University of Calgary" K6_INFLUXDB_BUCKET="perf_bucket" K6_INFLUXDB_TOKEN="$influxDB_token" K6_INFLUXDB_ADDR="http://localhost:8086" ~/k6 run q1_script.js -o xk6-influxdb

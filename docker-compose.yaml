@@ -1,0 +1,21 @@
+version: "3.0"
+
+services:
+  influxdb:
+    image: influxdb
+    ports:
+      - 8086:8086
+    networks:
+      - perf_net
+
+  graphana:
+    image:  grafana/grafana-enterprise:10.3.1-ubuntu
+    ports:
+      - 3000:3000
+    networks:
+      - perf_net
+  
+networks:
+  perf_net:
+    
+    
