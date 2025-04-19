@@ -6,18 +6,18 @@ collections API
 
 circle think_time
 
-database mongoDB
+' database mongoDB
 
-database Elasticsearch
+' database Elasticsearch
 
 
 client --> API
 
 client --> think_time
 
-API --> mongoDB
+' API --> mongoDB
 
-API --> Elasticsearch
+' API --> Elasticsearch
 
 
 
