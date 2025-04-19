@@ -1,0 +1,26 @@
+@startuml layer_queuing_simulation
+
+component client
+
+collections API
+
+circle think_time
+
+database mongoDB
+
+database Elasticsearch
+
+
+client --> API
+
+client --> think_time
+
+API --> mongoDB
+
+API --> Elasticsearch
+
+
+
+
+
+@enduml
