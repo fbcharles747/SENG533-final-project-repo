@@ -45,7 +45,8 @@ export default function () {
                 'x-api-key': 'jzoo0hnhylSvY3UHIfdQJ1OYEmElO2l1S461oMW2_Dg'
             }
         })
-        sleep(1);
+
+        sleep(5)
     });
     
 }
